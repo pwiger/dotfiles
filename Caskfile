@@ -8,30 +8,32 @@ brew tap caskroom/versions
 
 brew cask install dropbox 2> /dev/null
 brew cask install google-chrome 2> /dev/null
-brew cask install google-chrome-canary 2> /dev/null
 brew cask install sublime-text 2> /dev/null
 brew cask install transmission 2> /dev/null
-brew cask install atom> /dev/null
 brew cask install adobe-creative-cloud> /dev/null
 brew cask install alfred> /dev/null
 brew cask install cyberduck> /dev/null
 brew cask install google-drive> /dev/null
-brew cask install heroku-toolbelt> /dev/null
-brew cask install rdio> /dev/null
+# brew cask install rdio> /dev/null
 brew cask install skype> /dev/null
 # brew cask install vmware-fusion> /dev/null
 brew cask install appcleaner> /dev/null
 brew cask install firefox> /dev/null
 brew cask install adobe-reader> /dev/null
 brew cask install gimp> /dev/null
-brew cask install omnigraffle> /dev/null
 brew cask install bettertouchtool> /dev/null
 brew cask install caffeine> /dev/null
-brew cask install charles> /dev/null
 brew cask install Caskroom/cask/java> /dev/null
-brew cask install gradle> /dev/null
-brew cask install intellij-idea-ce> /dev/null
-brew cask install dockertoolbox> /dev/null
 brew cask install calibre> /dev/null
-brew cask install webstorm> /dev/null
-brew cask install jet> /dev/null
+
+# install Quicklook plugins 
+# https://github.com/sindresorhus/quick-look-plugins
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch> /dev/null
+brew cask quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package qlvideo /dev/null
+
+brew cask install cheatsheet /dev/null
+brew cask install google-hangouts /dev/null
+brew cask install flux /dev/null
+brew cask install the-unarchiver /dev/null
+brew cask install vlc /dev/null
+brew cask install time-out /dev/null
