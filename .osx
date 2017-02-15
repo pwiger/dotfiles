@@ -13,10 +13,10 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "jat-book"
-sudo scutil --set HostName "jat-book"
-sudo scutil --set LocalHostName "jat-book"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "jat-book"
+sudo scutil --set ComputerName "pwbook16"
+sudo scutil --set HostName "pwbook16"
+sudo scutil --set LocalHostName "pwbook16"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "pwbook16"
 
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 defaults write com.apple.menuextra.battery ShowTime -string "NO"
@@ -131,7 +131,7 @@ defaults write NSGlobalDomain KeyRepeat -int 0
 #defaults write NSGlobalDomain AppleMetricUnits -bool true
 
 # Set the timezone; see `systemsetup -listtimezones` for other values
-systemsetup -settimezone "Europe/Oslo" > /dev/null
+systemsetup -settimezone "Europe/Stockholm" > /dev/null
 
 # Disable auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
@@ -394,7 +394,7 @@ defaults write com.google.Chrome.canary ExtensionInstallSources -array "https://
 ###############################################################################
 
 # Stop iTunes from responding to the keyboard media keys
-launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
+# launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
 
 ###############################################################################
 # Kill affected applications                                                  #
