@@ -21,17 +21,9 @@ brew install imagemagick
 brew install node
 brew install tree
 brew install ios-sim
-brew install phantomjs
 brew install hub
-brew install vim --override-system-vi
 brew install bash-completion
 brew install httpry
-brew install awscli
-brew install aws-elasticbeanstalk
-brew install ansible
-brew install mongodb
-brew install docker-cloud
-brew install consul-template
 brew install vault
 # Remove outdated versions from the cellar
 brew cleanup
