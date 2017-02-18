@@ -6,34 +6,34 @@
 brew tap caskroom/cask
 brew tap caskroom/versions
 
-brew cask install dropbox 2> /dev/null
-brew cask install google-chrome 2> /dev/null
-brew cask install sublime-text 2> /dev/null
-brew cask install transmission 2> /dev/null
-brew cask install adobe-creative-cloud> /dev/null
-brew cask install alfred> /dev/null
-brew cask install cyberduck> /dev/null
-brew cask install google-drive> /dev/null
-# brew cask install rdio> /dev/null
-brew cask install skype> /dev/null
-# brew cask install vmware-fusion> /dev/null
-brew cask install appcleaner> /dev/null
-brew cask install firefox> /dev/null
-brew cask install adobe-reader> /dev/null
-brew cask install gimp> /dev/null
-brew cask install bettertouchtool> /dev/null
-brew cask install caffeine> /dev/null
-brew cask install Caskroom/cask/java> /dev/null
-brew cask install calibre> /dev/null
+brew cask install dropbox 2>/dev/null
+brew cask install google-chrome 2>/dev/null
+brew cask install sublime-text 2>/dev/null
+brew cask install transmission 2>/dev/null
+brew cask install adobe-creative-cloud 2>/dev/null
+brew cask install alfred 2>/dev/null
+brew cask install cyberduck 2>/dev/null
+brew cask install google-drive 2>/dev/null
+# brew cask install rdio 2>/dev/null
+brew cask install skype 2>/dev/null
+# brew cask install vmware-fusion 2>/dev/null
+brew cask install appcleaner 2>/dev/null
+brew cask install firefox 2>/dev/null
+brew cask install adobe-reader 2>/dev/null
+brew cask install gimp 2>/dev/null
+brew cask install bettertouchtool 2>/dev/null
+brew cask install caffeine 2>/dev/null
+brew cask install Caskroom/cask/java 2>/dev/null
+brew cask install calibre 2>/dev/null
 
 # install Quicklook plugins 
 # https://github.com/sindresorhus/quick-look-plugins
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch> /dev/null
-brew cask quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package qlvideo /dev/null
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch 2>/dev/null
+brew cask quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package qlvideo 2>/dev/null
 
-brew cask install cheatsheet /dev/null
-brew cask install google-hangouts /dev/null
-brew cask install flux /dev/null
-brew cask install the-unarchiver /dev/null
-brew cask install vlc /dev/null
-brew cask install time-out /dev/null
+brew cask install cheatsheet 2>/dev/null
+brew cask install google-hangouts 2>/dev/null
+brew cask install flux 2>/dev/null
+brew cask install the-unarchiver 2>/dev/null
+brew cask install vlc 2>/dev/null
+brew cask install time-out 2>/dev/null
