@@ -14,6 +14,7 @@ brew cask install adobe-creative-cloud 2>/dev/null
 brew cask install alfred 2>/dev/null
 brew cask install cyberduck 2>/dev/null
 brew cask install google-drive 2>/dev/null
+brew cask install slack 2>/dev/null
 # brew cask install rdio 2>/dev/null
 brew cask install skype 2>/dev/null
 # brew cask install vmware-fusion 2>/dev/null
