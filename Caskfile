@@ -38,3 +38,4 @@ brew cask install flux 2>/dev/null
 brew cask install the-unarchiver 2>/dev/null
 brew cask install vlc 2>/dev/null
 brew cask install time-out 2>/dev/null
+brew cask install spotify
